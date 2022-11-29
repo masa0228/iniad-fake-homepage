@@ -6,6 +6,10 @@ body {
 h1 {
   font-size: 24px;
   text-align: center;
+  background-color: #17194c;
+  color: #ffffff
+  margin: 0;
+  padding: 10px 10px 20px 20px;
 }
 
 h2 {
