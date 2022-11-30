@@ -23,12 +23,18 @@ h2 {
   color: #ffffff;
   background-color: #17194c;
   border-bottom: solid 1px #cc0000;
+  padding-left: 5px;
 }
 
 h3 {
   font-size: 18px;
   padding-left: 4px;
   border-left: solid 4px #cc0000;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
 }
 
 #schedule {
@@ -38,14 +44,14 @@ h3 {
 
 .iniad {
   color:#ffffff;
-  text-shadow: 2px 2px 2px #17194c;
+  text-shadow: 2px 2px 1px #17194c;
 }
-
 
 .time {
   font-weight: bold;
   color: #000000;
   font-size: 30px;
+  margin-right: 5px;
 }
 
 #header {
@@ -58,12 +64,7 @@ h3 {
 }
 
 #header img {
-  height : 100%;
-  
-}
-
-p {
-  text-align: center;
+  height : 100%;  
 }
 
 .map {
