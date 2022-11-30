@@ -4,12 +4,18 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 60px;
+  font-weight: bold;
   text-align: center;
-  background-color: #17194c;
-  color: #ffffff;
+  color: #17194c;
+  text-shadow: 3px 3px 2px #ffffff;
   margin: 0;
-  padding: 10px 10px 20px 20px;
+  padding: 50px 10px 20px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
@@ -32,7 +38,7 @@ h3 {
 
 .iniad {
   color:#ffffff;
-  text-shadow: 1px 1px 1px #17194c;
+  text-shadow: 2px 2px 2px #17194c;
 }
 
 
@@ -44,10 +50,37 @@ h3 {
 
 #header {
   background-color : #17194c;
-  padding : 10px 20px 10px 20px;
-  height : 40px;
+  padding : 5px 5px 5px 5px;
+  height : 35px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 #header img {
   height : 100%;
+  
+}
+
+p {
+  text-align: center;
+}
+
+.map {
+  margin-left: 40px;
+}
+
+#campus {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 100%;
+}
+
+.twitter-timeline {
+  margin-left: 20px;
+}
+
+.box {
+  position: relative;
 }
