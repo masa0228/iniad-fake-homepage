@@ -24,6 +24,7 @@ h2 {
   background-color: #17194c;
   border-bottom: solid 1px #cc0000;
   padding-left: 5px;
+  text-align: center;
 }
 
 h3 {
@@ -40,6 +41,8 @@ p {
 #schedule {
   padding: 10px 20px 10px 20px;
   background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
 }
 
 .iniad {
@@ -68,7 +71,7 @@ p {
 }
 
 .map {
-  margin-left: 40px;
+  text-align: center;
 }
 
 #campus {
@@ -79,9 +82,19 @@ p {
 }
 
 .twitter-timeline {
-  margin-left: 20px;
+  margin: auto;
 }
 
 .box {
   position: relative;
+}
+
+#id1-1 {
+  display: flex;
+  justify-content: center;
+}
+
+#id4-1 {
+  display: flex;
+  justify-content: center;
 }
