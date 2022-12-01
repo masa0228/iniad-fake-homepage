@@ -1,17 +1,29 @@
 body {
-  background-color: #794c13;
-  color: #FE4261;
+  background-color: #ffffff;
+  color: #17194c;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 60px;
+  font-weight: bold;
   text-align: center;
+  color: #17194c;
+  text-shadow: 3px 3px 2px #ffffff;
+  margin: 0;
+  padding: 50px 10px 20px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
   font-size: 20px;
-  color: #000000;
+  color: #ffffff;
+  background-color: #17194c;
   border-bottom: solid 1px #cc0000;
+  padding-left: 5px;
 }
 
 h3 {
@@ -20,17 +32,56 @@ h3 {
   border-left: solid 4px #cc0000;
 }
 
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
 #schedule {
   padding: 10px 20px 10px 20px;
-  background-color: #9933ff;
+  background-color: #ffffff;
 }
 
 .iniad {
-  color: #00cc00;
+  color:#ffffff;
+  text-shadow: 2px 2px 1px #17194c;
 }
 
 .time {
   font-weight: bold;
-  color: #cc0000;
+  color: #000000;
   font-size: 30px;
+  margin-right: 5px;
+}
+
+#header {
+  background-color : #17194c;
+  padding : 5px 5px 5px 5px;
+  height : 35px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#header img {
+  height : 100%;  
+}
+
+.map {
+  margin-left: 40px;
+}
+
+#campus {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 100%;
+}
+
+.twitter-timeline {
+  margin-left: 20px;
+}
+
+.box {
+  position: relative;
 }
