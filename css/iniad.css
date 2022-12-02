@@ -31,7 +31,7 @@ h2 {
 h3 {
   font-size: 18px;
   padding-left: 4px;
-  background-color: #B2B2B2;
+  background-color: #708090;
   border-left: solid 4px #17194c;
 }
 
@@ -42,7 +42,7 @@ p {
 
 #schedule {
   padding: 10px 20px 10px 20px;
-  background-color: #708090;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-around;
 }
