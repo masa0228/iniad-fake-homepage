@@ -72,7 +72,6 @@ p {
   height : 100%;  
 }
 
-<<<<<<< HEAD
 .start {
   display: flex;
   flex-direction: row;
@@ -100,8 +99,6 @@ p {
   color: #333333;
 }
 
-=======
->>>>>>> 98f45360341135204e6742d5d6c809b43b84d179
 .map {
   text-align: center;
 }
