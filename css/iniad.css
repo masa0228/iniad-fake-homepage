@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-size: 12px;
   color: #333333;
-  background-color: #bdc8ca;
+  background-color: #f4f4f4;
   border-bottom: solid 1px #333333;
   padding-left: 5px;
   text-align: center;
@@ -30,7 +30,7 @@ h2 {
 h3 {
   font-size: 18px;
   padding-left: 4px;
-  background-color: #bdc8ca;
+  background-color: #f4f4f4;
   border-left: solid 4px #17194c;
 }
 
@@ -98,7 +98,7 @@ p {
 #id4-1 {
   display: flex;
   justify-content: right;
-  color:#ffffff;
+  color:#f4f4f4;
   background-color : #17194c;
 }
 
