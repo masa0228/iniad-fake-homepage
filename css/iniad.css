@@ -106,3 +106,7 @@ p {
 a{
   text-decoration: none;
 }
+
+a.visited{
+  color:#ffffff;
+}
