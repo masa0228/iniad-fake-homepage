@@ -13,7 +13,7 @@ h1 {
   padding: 50px 10px 20px 10px;
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -71,6 +71,25 @@ p {
   height : 100%;  
 }
 
+.start {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 0px 148px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.subject {
+  margin: 0px 0px 0px 10px;
+
+}
+
+.subject a {
+  color: #17194c;
+}
+
 .map {
   text-align: center;
 }
@@ -104,4 +123,9 @@ p {
 
 a{
   text-decoration: none;
+  color:#ffffff
+}
+
+a:visited{
+  color:#ffffff
 }
