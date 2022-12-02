@@ -60,7 +60,7 @@ p {
 }
 
 #header {
-  background-color : #17194c;
+  background-color : #333333;
   padding : 5px 5px 5px 5px;
   height : 35px;
   position: absolute;
@@ -70,6 +70,33 @@ p {
 
 #header img {
   height : 100%;  
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 0px 148px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+
+.subject {
+  margin: 0px 0px 0px 10px;
+  -webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.box:hover .subject {
+  opacity:		1;	/* 表示する */
+}
+
+.subject a {
+  color: #333333;
 }
 
 .map {
